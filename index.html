@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name='viewport' content='width=device-width' />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Food Vote Tracker</title>
+    <link rel='icon' href='data:;base64,iVBORw0KGgo='/>
+    <link rel="stylesheet" href="css/votetracker.css"/>
+  </head>
+  <body id = "MainBody">
+    <header>
+      <h1 id="Header"> Food Vote Tracker </h1>
+    </header>
+    <p id="descriptionParagraph"> Please tap or click on the food that you like more
+      between the two pictures. Each picture is given a value between 1 and 5 based on how tasty it
+      looks. 5 being absolutely delicious and 1 being the food makes you lose your appetite. You will
+      cycle through the pictures for 15 clicks then you will be shown your finaly score based on the
+      pictures you chose. If you get over a certain amount of points you win and will get a fantastic prize, but
+      if you do not win, don't worry you still get a consolation prize and get to try again.
+    </p>
+    <input id="resetHide" type="button" name="Submit" value="Reset Clicker" />
+    <div id= "imageANDchart">
+    <div id= "images">
+      <div id="AnchorNode"></div>
+</div>
+      <div id="clicksRemaining">Number of clicks remaining: 15 </div>
+
+      <div id="winnerHide">
+        <p id="score"> </p>
+        <fieldset id="vacation">
+          <legend>Choose your vacation destination</legend>
+          <label class="country">Country:
+            <input id="countryInput" type="text" placeholder="US" name="Country" maxlength="30" required />
+          </label><br />
+          <label class="city">City:
+            <input id="cityInput"  type="text" placeholder="Portland" name="City" maxlength="30" required />
+          </label><br />
+            <input id="submitButton" type="button" name="Submit" value="Submit" />
+        </fieldset>
+      </div>
+
+      <div id = "loserHide">
+        <p id="loserscore"> </p>
+      </div>
+
+      <div id="chart">
+        <canvas id="myChart" ></canvas>
+      </div>
+    </div>
+    <div id = "weatherHidden">
+    <h4 id="weatherChartTitle"> Day of the Week Vs Daily Temp (F) </h4>
+  </div>
+      <canvas id="weatherChart" ></canvas>
+
+
+      <div id="consolationHidden"> </div>
+      <br />
+      <div id="street-view"></div>
+
+      <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+      <script type="text/javascript" src="bower_components/Chart.js/Chart.js"></script>
+      <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuLzy72ZhpOxhZrtAAg8dWGQXDKbYHTCg&signed_in=true"></script>
+      <script defer type="text/javascript" src="js/googleStreetView.js"></script>
+      <script async type="text/javascript" src="js/votetracker.js"> </script>
+    </body>
+
+</html>

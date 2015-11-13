@@ -1,0 +1,21 @@
+{
+  "name": "y",
+  "homepage": "https://github.com/gsmatth/votetrakr",
+  "authors": [
+    "Doug Popadince <gsmatth@icloud.com>"
+  ],
+  "description": "Week3 Code Fellows 201 Project",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Chart.js": "~1.0.2"
+  }
+}

@@ -1,0 +1,159 @@
+
+    #Header {
+	      background-color: #FFFF00;
+        color:#2A2C2B;
+	      border: 3px solid white;
+	      width: 47.5em;
+	      text-align: center;
+	      max-width: 80%;
+	      margin: auto auto 20px auto;
+	      padding: 10px;
+	      border-radius: 10px;
+	      font-family: sans-serif, cursive;}
+    #MainBody {
+      	width: 60em;
+      	text-align: center;
+      	max-width: 100%;
+      	margin: 10px auto;
+      	background-color: #2A2C2B;
+        color: white;
+        font-family: sans-serif;}
+
+    #descriptionParagraph {
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        line-height: 25px;
+        max-width: 80%;
+        margin: auto;
+        }
+    #resetHide {
+      display: none;
+    }
+
+    #reset {
+      text-align: center;
+    }
+
+        #images {
+          margin-top: 20px;
+          display: inline;
+          vertical-align: center;
+
+          margin-left: auto;
+          margin-right: auto;
+        }
+    #right {
+      	width: 12.625em;
+      	height: 12.625em;
+      	max-width: 80%;
+      	border: 10px solid #2A2C2B;
+      	background-color: white;
+        border-radius: 10px;
+        display: inline-block;
+        text-align: center;
+      }
+    #left {
+          width: 12.625em;
+          height: 12.625em;
+          max-width: 80%;
+          border: 10px solid #2A2C2B;
+          background-color: white;
+          display: inline-block;
+          border-radius: 10px;
+          text-align: center;
+        }
+
+      #left:hover {
+    	      border: 10px solid #FFFF00}
+      #right:hover {
+                border: 10px solid #FFFF00}
+      #chart {
+        display: inline-block;
+        max-width: 80%;
+        margin: auto;
+        text-align: left;
+      }
+      #myChart {
+      	width: 20.500em;
+      	height: 18.375em;
+      }
+      #chartHide {
+        display: none;
+      }
+
+      #clicksRemaining {
+        display: inline;
+        margin: 10px;
+        vertical-align: middle;
+        color: white;
+        font-family: sans-serif;
+        font-weight:bold;
+
+      }
+
+      #winnerHide {
+      	display: none
+      }
+      #winner {
+      	display: inline-block;
+      	color: white;
+        border: 3px solid #FFFF00;
+        width: 47.5em;
+        max-width: 80%;
+        margin-top: 20px;
+      }
+
+      #loserHide {
+        display: none;
+      }
+
+      #loser {
+        display: inline-block;
+        color: white;
+        border: 3px solid #FFFF00;
+        width: 47.5em;
+        max-width: 80%;
+        margin-top: 20px;
+
+      }
+
+      #vacation {
+        max-width: 50%;
+        margin: 0px auto 15px auto;
+      }
+
+      #score {
+        padding: 10px;
+      }
+
+      #consolationHidden {
+	      display: none
+      }
+      #consolationPrize {
+      	width: 250px;
+      	border: 2px solid white;
+      }
+
+      #street-view {
+        width: 47.5em;
+        height: 300px;
+	      text-align: center;
+	      max-width: 80%;
+	      margin: auto auto 20px auto;
+        display: block;
+
+      }
+
+      #weatherHidden {
+        display: none;
+      }
+      #weatherChart {
+        width: 960px;
+        height: 300px;
+        max-width: 80%;
+        display: block;
+        text-align: center;
+        max-width: 80%;
+        margin: 20px auto 20px auto;
+      }
