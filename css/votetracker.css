@@ -35,14 +35,10 @@
       text-align: center;
     }
 
-        #images {
-          margin-top: 20px;
-          display: inline;
-          vertical-align: center;
+    #imageANDchart {
+      text-align: center;
+    }
 
-          margin-left: auto;
-          margin-right: auto;
-        }
     #right {
       	width: 12.625em;
       	height: 12.625em;
@@ -50,6 +46,7 @@
       	border: 10px solid #2A2C2B;
       	background-color: white;
         border-radius: 10px;
+        vertical-align: middle;
         display: inline-block;
         text-align: center;
       }
@@ -57,8 +54,10 @@
           width: 12.625em;
           height: 12.625em;
           max-width: 80%;
+          vertical-align: middle;
           border: 10px solid #2A2C2B;
           background-color: white;
+          vertical-align: middle;
           display: inline-block;
           border-radius: 10px;
           text-align: center;
@@ -85,10 +84,10 @@
       #clicksRemaining {
         display: inline;
         margin: 10px;
-        vertical-align: middle;
         color: white;
         font-family: sans-serif;
         font-weight:bold;
+
 
       }
 
